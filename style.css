@@ -1,0 +1,160 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Arial,serif;
+	font-size: small;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100%;
+	min-width: 980px;
+}
+
+.center {
+	display: flex;
+	align-self: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	list-style-type:none;
+}
+
+ul:last-child {
+	padding-right: 0;
+}
+
+li {
+	display:inline;
+	padding-right: 15px;
+}
+
+#navtop {
+	display: flex;
+	justify-content:flex-end;
+	align-items: center;
+	margin: 0px 30px;
+	min-width: 244px;
+}
+
+#Appicon {
+	margin: auto;
+	vertical-align: middle;
+	display: inline-block;
+	opacity: 0.55
+}
+
+#Appicon:hover {
+	opacity: 0.85
+}
+
+#Connexion {
+	background-color: #4688F1;
+	padding: 8px 15px;
+	color:white;
+	font-weight: bold;
+	border-radius: 2px;
+	text-decoration: none;	
+}
+
+
+#centre {
+	display:none;
+	flex-direction: column;
+	height: 80%;
+	justify-content:space-around;
+	align-items:center;
+}
+
+#bouton_affichage {
+	display:flex;
+	justify-content: center;
+	align-self: center;
+	height:200px;
+	width:400px;
+	font-size:medium;
+}
+
+#logo {
+}
+
+input {
+	min-width: 300px;
+	width: 40%;
+	min-height: 30px;
+	box-shadow: 0 2px rgba(0,0,0,0.16);
+	font-size:16px;
+	margin-top: 20px:;
+}
+
+input:hover {
+	box-shadow: 4px 3px rgba(0,0,0,0.16);
+}
+
+#boutonsgris {
+	padding-top: 28px;
+}
+
+button {
+	border: 1px  #F7F7F7 solid;
+	background-color: #F7F7F7;
+	font-weight: bold;
+	color:#757575;
+	padding: 10px 20px;
+}
+
+button:hover {
+	border: 1px solid #c6c6c6;
+	background-color: #f8f8f8;
+	color: black;
+	text-decoration: none;
+}
+
+footer {
+	line-height:40px;
+	background: #f2f2f2;
+	color:rgba(0,0,0,.54);
+}
+
+
+#ligne1, #ligne2 {
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	font-size: small;
+
+
+}
+
+#ligne1 {
+	padding-left: 30px;
+}
+
+#ligne2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 27px;
+}
+
+
+.navbas {
+	color:#666;
+	padding-left: 27px;
+}
+
+#bat {
+	display: none;
+}

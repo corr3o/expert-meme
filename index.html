@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google est ton ami</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="decompte();">
+
+	<header>
+		<nav id="navtop">
+			<ul>
+				<li><a href="https://www.google.com/intl/fr/gmail/about/">Gmail</a></li>
+				<li><a href="https://www.google.fr/imghp">Images</a></li>				
+				<li><a id="Appicon" href="https://www.google.fr/intl/fr/options/"><img src="IMG/App.png" /></a></li>
+				<li><a id="Connexion" href="https://accounts.google.com/ServiceLogin">Connexion</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+
+	<section class="center" id="centre">
+		<div>
+			<img id="logo" src="IMG/logo.png" alt="logo de Google" />
+		</div>
+			<input id="barre_recherche"></input>
+		<div id="boutonsgris">
+			<button id="bouton_recherche" type="button"><a onclick="url_recherche();" href"#">Recherche Google</a></button>
+			<button type="button"><a href"#">J'ai de la chance</a></button>
+		</div>
+	</section>
+
+	<section>
+			<button class="center" onclick="apparaitre_centre();" id="bouton_affichage" type="button">Afficher les éléments centraux</button>
+	</section>
+
+
+	<footer>
+		<div id="ligne1">
+			France
+		</div>
+		<div id="ligne2">
+			<div id="navbasgauche">
+				<a class="navbas" href="https://www.google.fr/intl/fr_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicité</a>
+				<a class="navbas" href="https://www.google.fr/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Entreprise</a>				
+				<a class="navbas" href="https://www.google.fr/intl/fr_fr/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">A propos</a>
+			</div>
+
+			<div id="navbasdroite">
+				<a class="navbas" href="https://www.google.fr/intl/fr_fr/policies/privacy/?fg=1">Confidentialité</a>
+				<a class="navbas" href="https://www.google.fr/intl/fr_fr/policies/terms/regional.html">Conditions</a>				
+				<a class="navbas" href="https://www.google.fr/preferences?hl=fr"">Paramètres</a>
+			</div>
+		</div>		
+	</footer>
+
+	<img id="bat" src="IMG/bat.jpg" />
+
+<script type="text/javascript" src="scripts/main.js"></script>
+
+<script type="text/javascript">function popup () {};</script>
+
+</body>
+</html>
+
+<!-- Encodé avec bonheur par la team npns -->
